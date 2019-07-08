@@ -6,9 +6,9 @@ import os
 import re
 
 try:
-    from unittest.mock import patch, sentinel
+    from unittest.mock import patch, sentinel, PropertyMock
 except ImportError:
-    from mock import patch, sentinel
+    from mock import patch, sentinel, PropertyMock
 
 import pytest
 
